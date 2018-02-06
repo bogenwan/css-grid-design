@@ -2,30 +2,36 @@
 <html lang="en">
 <head>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="./style.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>css grid design</title>
 </head>
 <body>
+
     <!--header showcase-->
     <header id="showcase" class="grid">
       <div class="bg-image"></div>
+      <div class="content-wrap">
       <h1>Welcome to CSS GRID Design</h1>
       <p>Magna nostrud dolore sed in nostrud et cupidatat cupidatat duis commodo. Labore culpa consectetur exercitation ut eiusmod id id id.</p>
       <a href="#section-b" class="btn">Read More</a>
+      </div>
     </header>
 
     <!--main area-->
     <main id="main">
-      <!--section a-->
+
+      <!--section A-->
       <section id="section-a" class="grid">
         <div class="content-wrap">
           <h2 class="content-title">Web and Application Development</h2>
           <p>In laboris minim culpa nisi ut consequat et id commodo laborum et enim cillum nostrud est quis officia. Cupidatat excepteur ut adipisicing in nisi proident cillum sed exercitation in velit consequat esse labore. Sint non in commodo aliquip anim cupidatat laboris elit cillum commodo esse non voluptate dolor qui tempor velit voluptate.</p>
         </div>
       </section>
-      <!--section b-->
+
+      <!--section B-->
       <section id="section-b" class="grid">
         <ul>
           <li>
@@ -57,13 +63,33 @@
           </li>
         </ul>
       </section>
-      <!--section c-->
-      <section>
+
+      <!--section C-->
+      <section id="section-c" class="grid">
         <div class="content-wrap">
           <h2 class="content-title">We handle all your digital needs</h2>
           <p>Deserunt proident sunt irure in cillum nostrud duis aute. Enim pariatur anim voluptate exercitation dolore minim ad aliquip incididunt sint non laboris consectetur aliqua eiusmod ullamco sint voluptate. Lorem ipsum nostrud ea dolor minim cupidatat deserunt dolor deserunt est velit in enim reprehenderit.</p>
         </div>
       </section>
+
+      <!--section D-->
+      <section id="section-d" class="grid">
+        <div class="box">
+          <h2 class="content-title">Contact Us</h2>
+          <p>Lorem ipsum nulla eiusmod deserunt exercitation qui aute ad ea labore id deserunt nisi do enim est. In laborum cupidatat excepteur anim nisi voluptate laboris enim et cillum veniam laboris sunt.</p>
+          <p>conatct@acmewebsolutions.test</p>
+        </div>
+        <div class="box">
+          <h2 class="content-title">About Our Company</h2>
+          <p>Incididunt in officia magna proident culpa mollit elit velit ullamco duis dolor id ea commodo fugiat. Cupidatat sit tempor dolore qui minim eiusmod consectetur tempor dolore.</p>
+        </div>
+      </section>
     </main>
+
+    <!-- footer -->
+    <footer id="main-footer" class="grid">
+      <div>Acme Web Solutions</div>
+      <div>Project By <a href="http://traversymedia.com" target="_blank">Traversy Media</a></div>
+    </footer>
 </body>
 </html>
