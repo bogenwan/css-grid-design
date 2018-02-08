@@ -67,6 +67,21 @@ p {
   padding-bottom: 0;
 }
 
-#showcase .content-wrap {
+#showcase .content-wrap,
+#section-a .content-wrap {
   padding: 0 1.5em;
+}
+
+/* section A */
+
+#section-a {
+  background: #EAEAEA;
+  color: #333;
+  padding-bottom: 2em;
+}
+
+/* section-b */
+
+#section-b {
+  padding: 2em 1em 1em;
 }
